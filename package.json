@@ -1,12 +1,12 @@
 {
-  "name":"commission-feedback-bot",
-  "version":"2.0.0",
-  "description":"Discord commission ticket + feedback/rating bot",
-  "main":"src/index.js",
-  "scripts":{"start":"node src/index.js"},
-  "dependencies":{
-    "better-sqlite3":"^11.8.1",
-    "discord.js":"^14.24.2",
-    "dotenv":"^16.6.1"
+  "name": "dzs-commission-bot",
+  "version": "4.0.0",
+  "main": "src/index.js",
+  "scripts": {"start": "node src/index.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
   }
 }
